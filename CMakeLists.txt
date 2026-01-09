@@ -99,7 +99,6 @@ target_link_libraries(smart-thing-lib
         -llog
 )
 
-## Install ESP-IDF: https://docs.espressif.com/projects/esp-idf/en/v3.3/get-started-cmake/index.html#step-1-set-up-toolchain
 ## To Run: sudo docker run -v $PWD:/project -w /project -e IDF_GIT_SAFE_DIR='/project' -u $UID -e HOME=/tmp espressif/idf:release-v5.5 idf.py build
 
 # If it doesn't work, use my FORK in the udo docker run -v $PWD:/project -w ... command

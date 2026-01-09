@@ -109,9 +109,9 @@ LDRVBquGud1K3lDouofwQSajhMwMU7mPujy2NFIfkeslqSbUj0Y=
 )EOF";
 
 // https://docs.arduino.cc/tutorials/uno-wifi-rev2/uno-wifi-r2-mqtt-device-to-device/
-WiFiClientSecure* wifiClient = WiFiClientSecure();
+WiFiClientSecure wifiClient = WiFiClientSecure();
 // https://arduino.stackexchange.com/a/93805
-MqttClient mqttClient(static_cast<Client>(wifiClient));
+MqttClient mqttClient(wifiClient);
 
 struct ButtonState {
   int pin;
