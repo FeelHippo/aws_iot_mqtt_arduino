@@ -1,3 +1,4 @@
+#line 1 "/home/feelhippo/Documents/IoT/idf-docker-builder/sketch/sketch.ino"
 #include <WiFi.h>
 #include <Arduino.h>
 #include <WiFiClientSecure.h>
@@ -117,6 +118,19 @@ struct ButtonState {
 ButtonState b1{BUTTON1_PIN, true, true, 0};
 ButtonState b2{BUTTON2_PIN, true, true, 0};
 
+#line 120 "/home/feelhippo/Documents/IoT/idf-docker-builder/sketch/sketch.ino"
+void publishJson(const char* topic, const String& json);
+#line 126 "/home/feelhippo/Documents/IoT/idf-docker-builder/sketch/sketch.ino"
+void setLed(bool on);
+#line 133 "/home/feelhippo/Documents/IoT/idf-docker-builder/sketch/sketch.ino"
+void onMqttMessage(int messageSize);
+#line 142 "/home/feelhippo/Documents/IoT/idf-docker-builder/sketch/sketch.ino"
+void handleButton(ButtonState& b, int id);
+#line 163 "/home/feelhippo/Documents/IoT/idf-docker-builder/sketch/sketch.ino"
+void setup();
+#line 187 "/home/feelhippo/Documents/IoT/idf-docker-builder/sketch/sketch.ino"
+void loop();
+#line 120 "/home/feelhippo/Documents/IoT/idf-docker-builder/sketch/sketch.ino"
 void publishJson(const char* topic, const String& json) {
   mqttClient.beginMessage(topic);
   mqttClient.print(json);

@@ -85,7 +85,7 @@ target_include_directories(arduino-wifi
 )
 
 add_library(smart-thing-lib STATIC ./smart-thing-mqtt.cpp)
-set_target_properties(smart-thing-lib PROPERTIES CXX_STANDARD 23)
+set_target_properties(smart-thing-lib PROPERTIES CXX_STANDARD 11)
 
 target_link_libraries(smart-thing-lib
         PRIVATE
@@ -99,7 +99,6 @@ target_link_libraries(smart-thing-lib
         -llog
 )
 
-## To Run: sudo docker run -v $PWD:/project -w /project -e IDF_GIT_SAFE_DIR='/project' -u $UID -e HOME=/tmp espressif/idf:release-v5.5 idf.py build
-
-# If it doesn't work, use my FORK in the udo docker run -v $PWD:/project -w ... command
-# see https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/tools/idf-docker-image.html
+## To Run:
+## sudo systemctl start docker
+## sudo docker run -v $PWD:/project -w /project -e IDF_GIT_SAFE_DIR='/project' -u $UID -e HOME=/tmp espressif/idf:release-v5.5 idf.py build
