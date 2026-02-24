@@ -1,0 +1,7 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The patch step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command (connected)=/opt/esp/tools/cmake/3.30.2/bin/cmake;-Dcan_fetch=YES;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/tmp/arduino-esp-populate-gitupdate.cmake
+command (disconnected)=/opt/esp/tools/cmake/3.30.2/bin/cmake;-Dcan_fetch=NO;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/tmp/arduino-esp-populate-gitupdate.cmake
+work_dir=/project/build/_deps/arduino-esp-src

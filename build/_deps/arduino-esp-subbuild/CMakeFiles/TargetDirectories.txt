@@ -1,0 +1,3 @@
+/project/build/_deps/arduino-esp-subbuild/CMakeFiles/arduino-esp-populate.dir
+/project/build/_deps/arduino-esp-subbuild/CMakeFiles/edit_cache.dir
+/project/build/_deps/arduino-esp-subbuild/CMakeFiles/rebuild_cache.dir

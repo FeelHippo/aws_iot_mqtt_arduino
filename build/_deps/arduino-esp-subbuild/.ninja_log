@@ -1,0 +1,21 @@
+# ninja log v5
+0	7	1771927183549361631	arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-mkdir	1b1340bf2f3943b6
+0	7	1771927183549361631	/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-mkdir	1b1340bf2f3943b6
+7	556774	1771927740316374239	arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-download	6d63621a7f1551bf
+7	556774	1771927740316374239	/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-download	6d63621a7f1551bf
+556774	557548	0	arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-update	4f06a649eaf433c6
+556774	557548	0	/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-update	4f06a649eaf433c6
+557548	557552	1771927741094387219	arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-patch	fe31b03868fd6bac
+557548	557552	1771927741094387219	/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-patch	fe31b03868fd6bac
+557552	557556	1771927741098387286	arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-configure	85092f8431a713cf
+557552	557556	1771927741098387286	/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-configure	85092f8431a713cf
+557556	557560	1771927741102387353	arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-build	bcb0714725a23916
+557556	557560	1771927741102387353	/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-build	bcb0714725a23916
+557560	557564	1771927741106387419	arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-install	48ca7b9b976164a9
+557560	557564	1771927741106387419	/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-install	48ca7b9b976164a9
+557564	557568	1771927741110387486	arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-test	ca249bc5e90731c0
+557564	557568	1771927741110387486	/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-test	ca249bc5e90731c0
+557568	557574	1771927741116387586	CMakeFiles/arduino-esp-populate-complete	7704704e8f3d1d44
+557568	557574	1771927741116387586	arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-done	7704704e8f3d1d44
+557568	557574	1771927741116387586	/project/build/_deps/arduino-esp-subbuild/CMakeFiles/arduino-esp-populate-complete	7704704e8f3d1d44
+557568	557574	1771927741116387586	/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-done	7704704e8f3d1d44

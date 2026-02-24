@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/CMakeFiles/arduino-esp-populate"
+		},
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/CMakeFiles/arduino-esp-populate.rule"
+		},
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/CMakeFiles/arduino-esp-populate-complete.rule"
+		},
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-build.rule"
+		},
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-configure.rule"
+		},
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-download.rule"
+		},
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-install.rule"
+		},
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-mkdir.rule"
+		},
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-patch.rule"
+		},
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-test.rule"
+		},
+		{
+			"file" : "/project/build/_deps/arduino-esp-subbuild/arduino-esp-populate-prefix/src/arduino-esp-populate-stamp/arduino-esp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"arduino-esp-populate"
+		],
+		"name" : "arduino-esp-populate"
+	}
+}

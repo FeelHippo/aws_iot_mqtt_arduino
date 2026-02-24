@@ -7,10 +7,20 @@ project(smart-thing-lib)
 
 include(FetchContent)
 FetchContent_Declare(
+        arduino-esp
+        GIT_REPOSITORY https://github.com/espressif/arduino-esp32.git
+)
+FetchContent_Declare(
         arduino-wifi
         GIT_REPOSITORY https://github.com/arduino-libraries/WiFi.git
 )
-FetchContent_MakeAvailable(arduino-wifi)
+FetchContent_MakeAvailable(arduino-esp arduino-wifi)
+
+add_library(arduino-esp INTERFACE)
+target_include_directories(arduino-esp
+        SYSTEM INTERFACE
+        ${arduino-esp_SOURCE_DIR}/cores
+)
 
 add_library(arduino-wifi INTERFACE)
 target_include_directories(arduino-wifi
@@ -23,6 +33,7 @@ set_target_properties(smart-thing-lib PROPERTIES CXX_STANDARD 17)
 
 target_link_libraries(smart-thing-lib
         PRIVATE
+        arduino-esp
         arduino-wifi
         -llog
 )
